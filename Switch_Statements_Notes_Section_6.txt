@@ -1,0 +1,90 @@
+ int switchValue = 6;    define a switch value 
+
+        switch (switchValue) { 
+            case 1: //start with the key word "case" the number you are dealing with a colon so 
+                System.out.println("Value was 1");
+                break;
+
+
+the format is switch(switch value defined) {
+		case (whitch case you are dealing with):
+			//code exicuted for that case 
+		break;
+		
+		default:
+			//code to be exicuted otherwise... this is like an else statement 
+		
+break means that it will just exicute the rest of the code that you should be using
+
+can either use a switch statement or an if statement. would use if you are testing different values for a certain variable for example switch( variable)... but you can change the value of the variable 
+can write the code out in an abbreviated way like this 
+
+ 	    case 3:
+            case 4:
+            case 5:
+                System.out.println("was a 3 or a 4, or a 5");     
+                System.out.println("Actually it was a " + switchValue);
+                break;
+
+must have break key word will just continue on if there is no break statement 
+(common error) 
+
+but all the switch statements are in the brackets 
+
+Challange 
+
+can create a switch statement from a string 
+for example 
+      String month = "JuNE";
+        switch (month.toUpperCase()) {
+            case "JANUARY":
+                System.out.println("Jan");
+                break;
+            case "JUNE":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
+
+
+    }
+}
+
+
+if you misspell something you can do toLower() method will change the all the strings charectors to lower case
+you can also do this for to upper case 
+example
+
+
+      String month = "JuNE";
+        switch (month.toUpperCase()) {   // THE method is right here 
+            case "JANUARY":
+                System.out.println("Jan");
+                break;
+            case "JUNE":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
+
+
+    }
+}
+
+If you want your code to run for all the methods you need a main method public static void main(String args[])
+
+to test the method you wrote make a call to the method from within the main method see Day of the week challange. 
+
+
+
+
+
+
+
+
+
+
+
+

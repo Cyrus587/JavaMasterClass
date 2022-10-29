@@ -1,0 +1,17 @@
+public class SpeedConverter {
+
+    public static long toMilesPerHour(double kilometersPerHour) {
+
+        if(kilometersPerHour < 0) {
+            return -1;
+        }
+
+        return Math.round(kilometersPerHour / 1.609);
+    }
+}
+
+
+
+I was wondering if I could get your opinion on three classes I am considering for the spring semester.  I’m on the BA track with a minor in Accounting. I need to choose one ( of my required 4 ) CS electives.  I am thinking about and looking at the details of the following classes : CS 309, CS 332, CS 355 and CS 380.  I do know that one of my 4 elective choices needs to be a  400 level course but I am not ready to choose that class right now.  I am leaning toward CS 309 and CS 355 because they both sound interesting and I think Mathmatica would be an interesting language to learn.  I am struggling a bit with the details of CS 332 or CS 380 and how they would help me. To be honest, I have not chosen a specific position to pursue after graduation, but it’s unlikely to be systems programming..  
+Could we meet on Zoom and would you be willing to tell me about these classes and offer some advice so I can make a good decision on my electives, I was also wondering if there was any 
+Cyrus Barkhurst 

@@ -1,0 +1,92 @@
+formate of a while loop is 
+
+public static void main(String [] args ){
+	int count = 1;
+	while(count !=6){
+		System.out.println("the count value is" + count);
+		count++;
+	}
+
+	
+}
+
+can also write this while loop like this 
+	count = 1;
+	while(true){
+	if(count==6){
+		break;
+	}
+		System.out.println("Count value is" + count);
+		count++;
+	}
+	
+	
+	
+
+
+we have to create
+
+an equivilant statement in for the for loop is 
+for(int i=1; i<7; i++){
+	System.out.println("Count value is" + count);
+
+
+
+sometimes we want to evaluate an expression until it reaches false this is a while loop 
+
+public static void main(String [] args ){
+	int count = 1;
+	while(count !=6){
+		System.out.println("the count value is" + count);
+		count++;
+	}
+
+	
+}
+
+can write like 
+this as this will evaluate until false 
+count = 1;
+while (true) {
+            if (num == 6) {   //this is the same way to write the for loop just using a while loop
+                break;
+            }
+            System.out.println("count value is using while true while loop " + num);
+            num++;
+
+NEED TO HAVE THE VARIABLE INCREMENTED VARIABLE ++;
+
+
+Coninue - By pass print statement starts on the next number and goes through the code again
+
+
+recap 
+
+while(conditon){
+//statemens 
+}
+this is syntax 
+
+if we need to increment a variable we do inside while loop but define varibles outside of while loop 
+
+do
+	// statements 
+}while (condition){
+
+code exicutes once and then the condition is checked 
+
+
+the do while is exicuted at least once 
+
+the while loop is checks the code before it exicutes the code 
+
+easy to get caught in an endless loop 
+
+can interupt look with continue break 
+
+break will exit the loop continue will skip the section below it and go back to top of code and run again 
+
+
+
+
+

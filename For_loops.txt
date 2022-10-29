@@ -1,0 +1,101 @@
+formate to a for loop 
+
+for(init; termination; increment){
+}
+
+init- the code is going to be initialized once at the beggining of the loop 
+termination- condition is put here once it becomes false the code stops exicuting 
+increment- how many time the loop is exicuted before it stops 
+
+example 
+for(int i=0; i<5; i++) { 
+            System.out.println("Loop " + i + " hello!");
+
+int (variable name usually i =0 because we are starting at zero); condition while i< 5; incrementation continue adding one to the value of the variable i (i++)
+
+this loop will run four times because 4 is the last number that is less than i then it stops 
+
+if you start at i=1 it will run one less becuase it started at one more than 
+
+
+for(int =2; i<9; i++){ becuase we are going up to the number 8 we need to iterate to when i is less than 9 becuase 8 is the last number that is less than 9 
+System.out.println("10,000 at"+ i +" % intrest = "+ calculateIntrest(10000, i));
+}
+
+
+becuase we are going up to the number 8 we need to iterate to when i is less than 9 becuase 8 is the last number that is less than 9... might have to cast the variable to a different type when you call the method and but i as a parameter
+
+ for(int =8; i>=2; i--){	
+	System.out.println("10,000 at"+ i +" % intrest = "+ calculateIntrest(10000, i));
+}
+
+here you need to do i >= 2 becuase the code will terminate when it reaches two.
+
+public static boolean rangeOfNumber(int num){
+	if(isPrime(n)==true){
+	for(int num = 0; num<= 10; num++){
+	return true;
+	}
+	}else{
+		break;
+	}
+	}
+}
+
+
+
+need a count so do to keep track of how many time it iterates threw the loop 
+
+int count = 0;
+for(int i =10; i <50; i++){
+	if(isPrime(i)){
+		count++;
+		System.out.println("Number"+ i+ "is a prime number");
+		System.out.println("Exiting for loop");
+		break;
+	}
+	}
+
+}
+
+
+for statemnet recap 
+
+for( int num = 1; num < 0; num += 2){
+	System.out.println("number= " + number);
+this statement will never exicute 
+the increment in this for loop is by twos 
+
+will sometimes have an infinite loop 
+for examplpe 
+for (int number= 100; number < 0; number += 10)
+
+sum and three and kfive challange
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
